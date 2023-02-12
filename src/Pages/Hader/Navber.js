@@ -1,15 +1,15 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logo from '../../image/logo.png'
 
 const Navber = () => {
   const menuItems = <>
 
-        <li className='px-2 hover:text-purple-800'><Link to="/">HOME</Link></li>
-        <li className='px-2 hover:text-purple-800'><Link to="aboutus">ABOUT US</Link></li> 
-        <li className='px-2 hover:text-purple-800' ><Link to="service">SERVICE</Link></li>
-        <li className='px-2 hover:text-purple-800'><Link to="protfolio">PORTFOLIO</Link></li>
-        <li className='px-2 hover:text-purple-800'><Link to="contact">CONTACT</Link></li>
+        <li className='px-2 hover:text-purple-800'><AnchorLink href="#home">HOME</AnchorLink></li>
+        <li className='px-2 hover:text-purple-800'><AnchorLink href="#aboutus">ABOUT US</AnchorLink></li> 
+        <li className='px-2 hover:text-purple-800' ><AnchorLink href="#service">SERVICE</AnchorLink></li>
+        <li className='px-2 hover:text-purple-800'><AnchorLink href="#protfolio">PORTFOLIO</AnchorLink></li>
+        <li className='px-2 hover:text-purple-800'><AnchorLink href="#contact">CONTACT</AnchorLink></li>
    </>
   return (
     <div className='sticky top-0 z-50'>

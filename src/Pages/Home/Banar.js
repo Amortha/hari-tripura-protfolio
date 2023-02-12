@@ -5,7 +5,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 
 const Banar = () => {
-    const handleType = (count: number) => {
+    const handleType = (count) => {
         // access word count number
 
     };
@@ -14,7 +14,7 @@ const Banar = () => {
 
     };
     return (
-        <div className='w-full mt-5 grid lg:grid-cols-2'>
+        <div className='w-full mt-5 grid lg:grid-cols-2' id='home'>
             <div className='lg:mt-32'>
                 <h1 className='text-3xl font-bold text-black text-center' >
                     Hello!<br />
@@ -39,6 +39,10 @@ const Banar = () => {
                 <br />
                 <p className='break-all text-black font-semibold'>I,m Expert in : Facebook Marketing , Google marketing , Seo (Search Engine Optimization) , Shopify Store Design, Email  Marketing ,youtube marketing
                 </p>
+               <div className='text-center mt-6'>
+               <button className='w-32 h-10  m-1 border-solid border-2 border-indigo-600 font-bold hover:bg-purple-600 hover:text-white' >Hire Me</button>
+                <button className='w-36 h-10 m-1 border-solid border-2 border-indigo-600 font-bold hover:bg-purple-600'>See My Resume</button>
+               </div>
             </div>
             <div>
                 <img className='m-auto' src={Main} alt='' />
