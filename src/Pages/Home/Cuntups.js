@@ -47,9 +47,9 @@ const Cuntups = () => {
         },
     ]
     return (
-        <div className={`my-24 bg-cover w-full h-96 bg-fixed  bg-[url('https://i.ibb.co/vdnQkt2/00-best-backgrounds.jpg')]`} >
+        <div className={`my-24 bg-cover w-full lg:h-96 bg-fixed  bg-[url('https://i.ibb.co/vdnQkt2/00-best-backgrounds.jpg')]`} >
          
-            <div className='grid lg:grid-cols-4 gap-6 sm:grid-cols-2  lg:px-12  py-8 h-96  bg-black/30' >
+            <div className='grid lg:grid-cols-4 gap-6  px-12 h-full   py-8   bg-black/30' >
 
                 {
                     counters.map(counter=> <Countupp key={counter._id} counter={counter}></Countupp>)
