@@ -7,6 +7,7 @@ import Portfolio from './Portfolio';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Skills from './Skills';
 import Certificat from './Certificat';
+
 import Cuntups from './Cuntups';
 import Services from './Services';
 
