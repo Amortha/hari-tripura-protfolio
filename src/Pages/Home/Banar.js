@@ -1,6 +1,7 @@
 import React from 'react';
 import Main from './../../image/mainpic.png'
 import { Typewriter } from 'react-simple-typewriter';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 
@@ -37,11 +38,11 @@ const Banar = () => {
                 </h1>
                 <br />
                 <br />
-                <p className='break-all text-xl  font-semibold'>I,m Expert in : Facebook Marketing , Google marketing , Seo (Search Engine Optimization) , Shopify Store Design, Email  Marketing ,youtube marketing
+                <p className='break text-xl  font-semibold'>Hey, I am Hari Tripura an professional Digital Marketer from  Bangladesh and I have been working as a digital marketer with 2+ years. During these two years I have completed many clients  project in the Local market and International market successfully. So Let,s make an effective plan for your business.
                 </p>
                <div className='text-center mt-6'>
-               <button className='w-32 h-10  m-1 border-solid border-2 border-indigo-600 font-bold hover:bg-purple-800 hover:text-white' >Hire Me</button>
-                <button className='w-36 h-10 m-1 border-solid border-2 border-indigo-600 font-bold hover:bg-purple-800 hover:text-white'>See My Resume</button>
+               <button  className='w-32 h-10  m-1 border-solid border-2 border-indigo-600 font-bold hover:bg-purple-800 hover:text-white' ><AnchorLink href="#contact">Hire Me</AnchorLink></button>
+                <button className='w-36 h-10 m-1 border-solid border-2 border-indigo-600 font-bold hover:bg-purple-800 hover:text-white'><AnchorLink target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1oHfJ-kEdhpBtXtOF57_kQRWOl7q4rdf7/view?usp=sharing">See My Resume</AnchorLink> </button>
                </div>
             </div>
             <div >

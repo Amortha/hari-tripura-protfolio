@@ -5,7 +5,7 @@ import seo from './../../image/seo.png'
 const Certificat = () => {
     return (
         <div id='certificate'>
-            <h1 className='font-bold text-center text-4xl my-7'>CERTIFICATE</h1>
+            <h1 className='font-bold text-center text-4xl my-7 text-purple-800'>CERTIFICATE</h1>
           <div className='grid grid-cols-2 gap-5 mx-4'>
           <img src={certificates} alt=""/>
             <img src={seo} alt=""/>
