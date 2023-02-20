@@ -6,7 +6,8 @@ const Contact = () => {
 
     return (
         <div id='contact'>
-            <h1 className='mt-10 text-center font-bold text-2xl lg:text-4xl  text-purple-800' >CONTACT</h1>
+            <h1 className='mt-10 text-center font-bold text-xl lg:text-2xl  text-purple-800' >CONTACT</h1>
+            <h1 className='mt-2 text-center font-bold text-2xl lg:text-5xl  text-purple-800' >Get in Touch</h1>
             <div className='grid lg:grid-cols-2  my-10 h-96'>
 
                 <div className='flex place-content-center py-4 bg-base-300'>
@@ -28,7 +29,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h1 className='text-xl font-bold'>Address</h1>
-                                    <h1 className='font-semibold'>Chittagong,Bangladesh</h1>
+                                    <h1 className='font-semibold'> Khagrachari,Chittagong,Bangladesh</h1>
                                 </div>
                             </div>
                         </div>

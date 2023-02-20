@@ -19,8 +19,8 @@ const Banar = () => {
             <div className='lg:mt-32'>
                 <h1 className='text-4xl font-bold  text-center' >
                     Hello!<br />
-                    I'M Hari Kumar Tripura<br />
-                    I,M Expert in {" "}
+                    I'm Hari Kumar Tripura<br />
+                    I,m Expert in {" "}
                     <span className='text-purple-800'>
                         {/* Style will be inherited from the parent element */}
                         <Typewriter
@@ -38,7 +38,7 @@ const Banar = () => {
                 </h1>
                 <br />
                 <br />
-                <p className='break text-xl  font-semibold'>Hey, I am Hari Tripura an professional Digital Marketer from  Bangladesh and I have been working as a digital marketer with 2+ years. During these two years I have completed many clients  project in the Local market and International market successfully. So Let,s make an effective plan for your business.
+                <p className='break text-xl  font-semibold'>Hey, I am a professional Digital Marketer from  Bangladesh and I have been working as a digital marketer with 2+ years. During these two years I have completed many clients  project in the Local market and International market successfully. So Let,s make an effective plan for your business.
                 </p>
                 <div className='text-center mt-6'>
                     <button className='w-32 h-10  m-1 border-solid border-2 border-indigo-600 font-bold hover:bg-purple-800 hover:text-white' ><AnchorLink href="#contact">Hire Me</AnchorLink></button>

@@ -24,12 +24,12 @@ const Cuntups = () => {
         {
             _id:1,
             icon:<FaUsers size={50}></FaUsers>,
-            count :<CountUp start={0} end={25} duration={5}/>,
+            count :<CountUp start={0} end={20} duration={5}/>,
             name:'Active Clients',
         },
         {
             _id:2,
-            count :<CountUp start={0} end={120} duration={5}/>,
+            count :<CountUp start={0} end={110} duration={5}/>,
             icon:<IoIosCheckmarkCircle size={50}></IoIosCheckmarkCircle>,
             name:'project Complete',
         },
