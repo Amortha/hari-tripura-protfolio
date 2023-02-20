@@ -20,8 +20,8 @@ const Banar = () => {
                 <h1 className='text-4xl font-bold  text-center' >
                     Hello!<br />
                     I'm Hari Kumar Tripura<br />
-                    I,m Expert in {" "}
-                    <span className='text-purple-800'>
+                    I,m Expert in- {" "}
+                    <span className='text-red-700'>
                         {/* Style will be inherited from the parent element */}
                         <Typewriter
                             words={["Facebook Marketing", "Google marketing", "Seo (Search Engine Optimization)", " Email  Marketing", "youtube marketin", "Shopify Store Design"]}
@@ -41,8 +41,8 @@ const Banar = () => {
                 <p className='break text-xl  font-semibold'>Hey, I am a professional Digital Marketer from  Bangladesh and I have been working as a digital marketer with 2+ years. During these two years I have completed many clients  project in the Local market and International market successfully. So Let,s make an effective plan for your business.
                 </p>
                 <div className='text-center mt-6'>
-                    <button className='w-32 h-10  m-1 border-solid border-2 border-indigo-600 font-bold hover:bg-purple-800 hover:text-white' ><AnchorLink href="#contact">Hire Me</AnchorLink></button>
-                    <button className='w-36 h-10 m-1 border-solid border-2 border-indigo-600 font-bold hover:bg-purple-800 hover:text-white'><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/17qpOCHURd3PzaQaPz1C8Fn52lTJrl9eO/view?usp=share_link">See My Resume</a> </button>
+                    <button  className='w-32 h-10  m-1 border-solid border-2 border-red-700 font-bold hover:bg-red-700 hover:text-white' ><AnchorLink href="#contact">Hire Me</AnchorLink></button>
+                    <button className='w-36 h-10 m-1 border-solid border-2 border-red-700 font-bold hover:bg-red-700 hover:text-white'><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/17qpOCHURd3PzaQaPz1C8Fn52lTJrl9eO/view?usp=share_link">See My Resume</a> </button>
                 </div>
             </div>
             <div >
