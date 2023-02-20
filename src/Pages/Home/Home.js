@@ -19,12 +19,13 @@ const Home = () => {
             <Banar></Banar>
             <AboutUs></AboutUs>
             <Skills></Skills>
-          <Services></Services>
+            <Services></Services>
             <Certificat></Certificat>
-           <Cuntups></Cuntups>
+            <Cuntups></Cuntups>
             <Portfolio></Portfolio>
             <Contact></Contact>
             <AnchorLink></AnchorLink>
+           
         </div>
     );
 };
