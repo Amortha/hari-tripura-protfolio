@@ -16,7 +16,10 @@ const Banar = () => {
     };
     return (
         <div className=' grid lg:grid-cols-2 mx-10' id='home'>
-            <div className='lg:mt-32'>
+            <div data-aos="fade-right"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="600"
+                data-aos-duration="1500" className='lg:mt-32'>
                 <h1 className='text-4xl font-bold  text-center' >
                     Hello!<br />
                     I'm Hari Kumar Tripura<br />
@@ -41,11 +44,14 @@ const Banar = () => {
                 <p className='break text-xl  font-semibold'>Hey, I am a professional Digital Marketer from  Bangladesh and I have been working as a digital marketer with 2+ years. During these two years I have completed many clients  project in the Local market and International market successfully. So Let,s make an effective plan for your business.
                 </p>
                 <div className='text-center mt-6'>
-                    <button  className='w-32 h-10  m-1 border-solid border-2 border-red-700 font-bold hover:bg-red-700 hover:text-white' ><AnchorLink href="#contact">Hire Me</AnchorLink></button>
+                    <button className='w-32 h-10  m-1 border-solid border-2 border-red-700 font-bold hover:bg-red-700 hover:text-white' ><AnchorLink href="#contact">Hire Me</AnchorLink></button>
                     <button className='w-36 h-10 m-1 border-solid border-2 border-red-700 font-bold hover:bg-red-700 hover:text-white'><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/17qpOCHURd3PzaQaPz1C8Fn52lTJrl9eO/view?usp=share_link">See My Resume</a> </button>
                 </div>
             </div>
-            <div >
+            <div data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="600"
+                data-aos-duration="1500">
                 <img className='m-auto' src={Main} alt='' />
             </div>
         </div>

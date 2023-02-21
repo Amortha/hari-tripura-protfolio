@@ -32,7 +32,9 @@ const Skills = () => {
         <div id='skills' className='p-6 lg:p-12 mt-10 bg-base-300 '>
             <div className='grid lg:grid-cols-2 gap-12 p-4 bg-base-100'>
 
-                <div>
+                <div data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                     <h1 className='text-purple-800  lg:text-2xl font-semibold'>My Expertise</h1>
                     <h1 className='font-bold text-2xl lg:text-5xl my-4'>My Skills</h1>
                     {testData.map((item, idx) => (
@@ -46,7 +48,9 @@ const Skills = () => {
                     ))}
 
                 </div>
-                <div>
+                <div data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                     <h1 className=' text-purple-800 lg:text-2xl font-semibold'>My Qualification</h1>
                     <h1 className='my-4 text-2xl lg:text-5xl font-bold'>My Education</h1>
                     <div className=' lg:flex w-full'>
@@ -55,7 +59,7 @@ const Skills = () => {
                             <h1 className='font-semibold'>Business Studies</h1>
                         </div>
                         <div className='lg:2/5'>
-                            <h1 className='font-bold lg:text-xl'>FATIKCHARI GOLTAJ MEMORIAL<br/> SCHOOL & COLLEGE</h1>
+                            <h1 className='font-bold lg:text-xl'>FATIKCHARI GOLTAJ MEMORIAL<br /> SCHOOL & COLLEGE</h1>
                             <h1 className='font-semibold'>HIGHER SECONDARY SCHOOL</h1>
                         </div>
                     </div>
