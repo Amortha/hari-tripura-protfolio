@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import Navber from './Pages/Hader/Navber';
-import Footer from './Pages/Home/Footer';
+
 
 import Home from './Pages/Home/Home';
 
@@ -23,7 +23,7 @@ function App() {
     <div data-theme={theme && "my_dark"} className="">  
       <Navber handleThemeChange={handleThemeChange} theme={theme}></Navber>
    <Home></Home>
-   <Footer></Footer>
+  
     </div>
   );
 }

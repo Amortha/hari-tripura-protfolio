@@ -10,6 +10,7 @@ import Certificat from './Certificat';
 
 import Cuntups from './Cuntups';
 import Services from './Services';
+import Footer from './Footer';
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
             <Cuntups></Cuntups>
             <Portfolio></Portfolio>
             <Contact></Contact>
+            <Footer></Footer>
             <AnchorLink></AnchorLink>
            
         </div>
