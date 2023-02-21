@@ -20,14 +20,14 @@ const Banar = () => {
                 data-aos-anchor="#example-anchor"
                 data-aos-offset="600"
                 data-aos-duration="1500" className='lg:mt-32'>
-                <h1 className='text-4xl font-bold  text-center' >
-                    Hello!<br />
-                    I'm Hari Kumar Tripura<br />
-                    I,m Expert in- {" "}
+                <h1 className='text-xl lg:text-3xl font-bold  text-center' >
+                    HELLO!<br />
+                    I'M HARI KUMAR TRIPURA<br />
+                    I'M EXPERT IN- {" "}
                     <span className='text-red-700'>
                         {/* Style will be inherited from the parent element */}
                         <Typewriter
-                            words={["Facebook Marketing", "Google marketing", "Seo (Search Engine Optimization)", " Email  Marketing", "youtube marketin", "Shopify Store Design"]}
+                            words={["FACEBOOK MARKETING", "GOOGLE MARKETING ", "YOUTUBE MARKETING", "SEO EXPERT ", "SHOPIFY-STORE DESIGN" ," EMAIL MARKETING"]}
                             loop={50}
                             cursor
                             cursorStyle="_"
@@ -41,7 +41,7 @@ const Banar = () => {
                 </h1>
                 <br />
                 <br />
-                <p className='break text-xl  font-semibold'>Hey, I am a professional Digital Marketer from  Bangladesh and I have been working as a digital marketer with 2+ years. During these two years I have completed many clients  project in the Local market and International market successfully. So Let,s make an effective plan for your business.
+                <p className='break lg:text-xl  font-semibold'>Hey, I am a professional Digital Marketer from  Bangladesh and I have been working as a digital marketer with 2+ years. During these two years I have completed many clients  project in the Local market and International market successfully. So Let,s make an effective plan for your business.
                 </p>
                 <div className='text-center mt-6'>
                     <button className='w-32 h-10  m-1 border-solid border-2 border-red-700 font-bold hover:bg-red-700 hover:text-white' ><AnchorLink href="#contact">Hire Me</AnchorLink></button>
