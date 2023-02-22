@@ -16,7 +16,7 @@ import Footer from './Footer';
 const Home = () => {
     return (
         <div className=''>
-            {/* <Navber></Navber> */}
+            {/* <Navber></Navber>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       */}
             <Banar></Banar>
             <AboutUs></AboutUs>
             <Skills></Skills>

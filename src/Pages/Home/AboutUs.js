@@ -5,7 +5,7 @@ const AboutUs = () => {
 
 
   return (
-    <div data-aos="fade-up"
+    <div data-aos="fade-up"                                                                                                                                                    
     data-aos-duration="3000" className='grid lg:grid-cols-2 gap-7 lg:mx-10 mt-16 ' id='aboutus'>
       <div >
         <img className='w-full px-5 lg:px-0' src={aboutaus} alt="pic" />

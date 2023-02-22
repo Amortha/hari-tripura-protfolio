@@ -52,7 +52,7 @@ const Banar = () => {
                 data-aos-anchor="#example-anchor"
                 data-aos-offset="600"
                 data-aos-duration="1500">
-                <img className='m-auto' src={Main} alt='' />
+                <img className='m-auto ' src={Main} alt='' />
             </div>
         </div>
     );

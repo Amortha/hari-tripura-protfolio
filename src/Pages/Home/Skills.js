@@ -64,21 +64,21 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className=' lg:flex w-full my-6 '>
-                        <div className='lg:w-2/5'>
+                        <div className=''>
                             <h1 className='text-purple-700 font-bold text-2xl'>2018</h1>
                             <h1 className='font-semibold'>National University</h1>
                         </div>
-                        <div className='lg:w-3/5'>
+                        <div className=''>
                             <h1 className='font-bold lg:text-xl'>NATIONAL UNIVERSITY</h1>
                             <h1 className='font-semibold'>NATIONAL UNIVERSITY Studied In Bechelor Of Social Science (Economics Department)</h1>
                         </div>
                     </div>
                     <div className=' lg:flex w-full '>
-                        <div className='lg:w-2/5'>
+                        <div className=''>
                             <h1 className='text-purple-900 font-bold text-2xl'>2022</h1>
                             <h1 className='font-semibold'>DIGITAL MARKETING COURSE</h1>
                         </div>
-                        <div className='lg:w-3/5'>
+                        <div className=''>
                             <h1 className='font-bold lg:text-xl'>ADVANCE DIGITAL MARKETING COURSE </h1>
                             <p className='font-semibold'>My Servics: Social Media Marketing, Search Engine Marketing, Seo, Shopify Dropshipping</p>
                         </div>
