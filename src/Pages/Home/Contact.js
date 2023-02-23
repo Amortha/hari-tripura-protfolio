@@ -25,9 +25,9 @@ const Contact = () => {
                 <div data-aos="fade-up"
                     data-aos-easing="linear"
                     data-aos-duration="1500" className={`bg-cover py-4   bg-[url('https://i.ibb.co/ySf7w4X/contactimg.jpg')]`}>
-                    <div className='flex place-content-end mx-12 mt-8 '>
+                    <div className='flex place-content-end  mx-4 lg:mx-12 mt-8 '>
                         <div className=''>
-                            <div className='bg-base-100 lg:w-62 h-auto p-4 '>
+                            <div className='bg-base-100  lg:w-62 h-auto p-4 '>
                                 <div className='flex'>
                                     <div>
                                         <MdLocationOn className='text-purple-800 mt-2' size={35} />

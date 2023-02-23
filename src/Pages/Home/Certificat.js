@@ -6,7 +6,7 @@ const Certificat = () => {
   return (
     <div id='certificate'>
       <h1 className='font-bold text-center text-4xl my-7 text-purple-800'>CERTIFICATE</h1>
-      <div className='grid grid-cols-2 gap-5 mx-4'>
+      <div className='grid lg:grid-cols-2 gap-5 mx-4 overflow-hidden'>
         <div data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine">

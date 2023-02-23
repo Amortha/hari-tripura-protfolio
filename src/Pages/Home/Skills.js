@@ -30,7 +30,7 @@ const Skills = () => {
 
     return (
         <div id='skills' className='p-6 lg:p-12 mt-10 bg-base-300 '>
-            <div className='grid lg:grid-cols-2 gap-12 p-4 bg-base-100'>
+            <div className='grid lg:grid-cols-2 gap-12 p-4 bg-base-100  overflow-hidden'>
 
                 <div data-aos="fade-right"
                     data-aos-offset="300"
